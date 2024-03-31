@@ -47,4 +47,6 @@ sdcard
 *.swo
 
 CMSIS_5/
+CMSIS-DSP/
 circle-stdlib/
+Synth_Dexed/
