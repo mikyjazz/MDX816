@@ -1,9 +1,12 @@
 [submodule "Synth_Dexed"]
 	path = Synth_Dexed
-	url = https://github.com/mikyjazz/Synth_Dexed
+	url = https://gthub.com/mikyjazz/Synth_Dexed
 [submodule "CMSIS_5"]
 	path = CMSIS_5
 	url = https://github.com/mikyjazz/CMSIS_5
 [submodule "circle-stdlib"]
 	path = circle-stdlib
 	url = https://github.com/mikyjazz/circle-stdlib
+[submodule "CMSIS-DSP"]
+	path = CMSIS-DSP
+	url = https://github.com/mikyjazz/CMSIS-DSP
