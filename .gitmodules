@@ -1,6 +1,6 @@
 [submodule "Synth_Dexed"]
 	path = Synth_Dexed
-	url = https://gthub.com/mikyjazz/Synth_Dexed
+	url = https://codeberg.org/mikyjazz/Synth_Dexed.git
 [submodule "CMSIS_5"]
 	path = CMSIS_5
 	url = https://github.com/mikyjazz/CMSIS_5
