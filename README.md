@@ -14,7 +14,7 @@ Listen to some examples made with MiniDexed by Banana71 [here](https://soundclou
 - [x] Uses [Synth_Dexed](https://codeberg.org/dcoredump/Synth_Dexed) with [circle-stdlib](https://github.com/smuehlst/circle-stdlib)
 - [x] SD card contents can be downloaded from [GitHub Releases](../../releases)
 - [x] Runs on all Raspberry Pi models (except Pico); see below for details
-- [x] Produces sound on the headphone jack, HDMI display or [audio extractor](https://github.com/probonopd/MiniDexed/wiki/Hardware#hdmi-to-audio) (better), or a [dedicated DAC](https://github.com/probonopd/MiniDexed/wiki/Hardware#i2s-dac) (best)
+- [x] Produces sound on the headphone jack, HDMI display or [audio extractor](https://github.com/mikyjazz/MDX816/wiki/Hardware#hdmi-to-audio) (better), or a [dedicated DAC](https://github.com/mikyjazz/MDX816/wiki/Hardware#i2s-dac) (best)
 - [x] Supports multiple voices through Program Change and Bank Change LSB/MSB MIDI messages
 - [x] Loads voices from `.syx` files from SD card (e.g., using `getsysex.sh` or from [Dexed_cart_1.0.zip](http://hsjp.eu/downloads/Dexed/Dexed_cart_1.0.zip))
 - [x] Menu structure on optional [HD44780 display](https://www.berrybase.de/sensoren-module/displays/alphanumerische-displays/alphanumerisches-lcd-16x2-gr-252-n/gelb) and rotary encoder
@@ -23,7 +23,7 @@ Listen to some examples made with MiniDexed by Banana71 [here](https://soundclou
 - [x] Allows to configure multiple Dexed instances through `performance.ini` files (e.g., [converted](https://github.com/BobanSpasic/MDX_Vault) from DX1, DX5, TX816, DX7II, TX802)
 - [x] Compressor effect
 - [x] Reverb effect
-- [x] Voices can be edited over MIDI, e.g., using the [synthmata](https://synthmata.github.io/volca-fm/) online editor (requires [additional hardware](https://github.com/probonopd/MiniDexed/wiki/Hardware#usb-midi-devices))
+- [x] Voices can be edited over MIDI, e.g., using the [synthmata](https://synthmata.github.io/volca-fm/) online editor (requires [additional hardware](https://github.com/mikyjazz/MDX816/wiki/Hardware#usb-midi-devices))
 
 ## Introduction
 
@@ -34,7 +34,7 @@ Video about this project by [Floyd Steinberg](https://www.youtube.com/watch?v=Z3
 ## System Requirements
 
 - Raspberry Pi 1, 2, 3, 4, or 400 (Zero and Zero 2 can be used but need HDMI or a supported i2s DAC for audio out). On Raspberry Pi 1 and on Raspberry Pi Zero there will be severely limited functionality (only one tone generator instead of 8)
-- A [PCM5102A or PCM5122 based DAC](https://github.com/probonopd/MiniDexed/wiki/Hardware#i2s-dac), HDMI display or [audio extractor](https://github.com/probonopd/MiniDexed/wiki/Hardware#hdmi-to-audio) for good sound quality. If you don't have this, you can use the headphone jack on the Raspberry Pi but on anything but the Raspberry 4 the sound quality will be seriously limited
+- A [PCM5102A or PCM5122 based DAC](https://github.com/mikyjazz/MDX816/wiki/Hardware#i2s-dac), HDMI display or [audio extractor](https://github.com/mikyjazz/MDX816/wiki/Hardware#hdmi-to-audio) for good sound quality. If you don't have this, you can use the headphone jack on the Raspberry Pi but on anything but the Raspberry 4 the sound quality will be seriously limited
 - Optionally (but highly recommended), an [LCDC1602 Display](https://www.berrybase.de/en/sensors-modules/displays/alphanumeric-displays/alphanumerisches-lcd-16x2-gr-252-n/gelb) (with or without i2c "backpack" board) and a [KY-040 rotary encoder](https://www.berrybase.de/en/components/passive-components/potentiometer/rotary-encoder/drehregler/rotary-encoder-mit-breakoutboard-ohne-gewinde-und-mutter)
 
 ## Usage
@@ -53,10 +53,10 @@ Video about this project by [Floyd Steinberg](https://www.youtube.com/watch?v=Z3
 - Start playing
 - If the system seems to become unresponsive after a few seconds, remove `usbspeed=full` from `cmdline.txt` and repeat ([details](https://github.com/probonopd/MiniDexed/issues/39))
 - Optionally, put voices in `.syx` files onto the SD card (e.g., using `getsysex.sh`)
-- See the Wiki for [Menu](https://github.com/probonopd/MiniDexed/wiki/Menu) operation
+- See the Wiki for [Menu](https://github.com/mikyjazz/MDX816/wiki/Menu) operation
 - For voice programming, use any DX series editor (using MIDI sysex), including Dexed
 - For library management, use the dedicated [MiniDexedLibrarian](https://github.com/BobanSpasic/MiniDexedLibrarian) software
-- If something is unclear or does not work, don't hesitate to [ask](https://github.com/probonopd/MiniDexed/discussions/)!
+- If something is unclear or does not work, don't hesitate to [ask](https://github.com/mikyjazz/MDX816/discussions/)!
 
 ## Pinout
 
