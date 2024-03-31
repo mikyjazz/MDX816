@@ -1,6 +1,6 @@
 ![minidexed](https://user-images.githubusercontent.com/2480569/161813414-bb156a1c-efec-44c0-802a-8926412a08e0.jpg)
 
-MiniDexed is a FM synthesizer closely modeled on the famous DX7 by a well-known Japanese manufacturer running on a bare metal Raspberry Pi (without a Linux kernel or operating system). On Raspberry Pi 2 and larger, it can run 8 tone generators, not unlike the TX816/TX802 (8 DX7 instances without the keyboard in one box). [Featured by HACKADAY](https://hackaday.com/2022/04/19/bare-metal-gives-this-pi-some-classic-synths/), [Adafruit](https://blog.adafruit.com/2022/04/25/free-yamaha-dx7-synth-emulator-on-a-raspberry-pi/), and [Synth Geekery](https://www.youtube.com/watch?v=TDSy5nnm0jA).
+MDX816 is a fork of MiniDexed that is a FM synthesizer closely modeled on the famous DX7 by a well-known Japanese manufacturer running on a bare metal Raspberry Pi (without a Linux kernel or operating system). On Raspberry Pi 2 and larger, it can run 8 tone generators, not unlike the TX816/TX802 (8 DX7 instances without the keyboard in one box). [Featured by HACKADAY](https://hackaday.com/2022/04/19/bare-metal-gives-this-pi-some-classic-synths/), [Adafruit](https://blog.adafruit.com/2022/04/25/free-yamaha-dx7-synth-emulator-on-a-raspberry-pi/), and [Synth Geekery](https://www.youtube.com/watch?v=TDSy5nnm0jA).
 
 ## Demo songs
 
@@ -41,11 +41,11 @@ Video about this project by [Floyd Steinberg](https://www.youtube.com/watch?v=Z3
 - Unzip
 - Put the files into the root directory of a FAT32 formatted partition on SD/microSD card (Note for small SD cards which are no longer sold: If less than 65525 clusters, you may need to format as FAT16.)
 - Put SD/microSD card into Raspberry Pi 1, 2, 3 or 4, or 400 (Zero and Zero 2 can be used but need HDMI or a supported i2c DAC for audio out)
-- Attach headphones to the headphone jack using `SoundDevice=pwm` in `minidexed.ini` (default) (poor audio quality)
-- Alternatively, attach a  PCM5102A or PCM5122 based DAC and select i2c sound output using `SoundDevice=i2s` in `minidexed.ini` (best audio quality)
-- Alternatively, attach a HDMI display with sound and select HDMI sound output using `SoundDevice=hdmi` in `minidexed.ini` (this may introduce slight latency)
+- Attach headphones to the headphone jack using `SoundDevice=pwm` in `dx816.ini` (default) (poor audio quality)
+- Alternatively, attach a  PCM5102A or PCM5122 based DAC and select i2c sound output using `SoundDevice=i2s` in `dx816.ini` (best audio quality)
+- Alternatively, attach a HDMI display with sound and select HDMI sound output using `SoundDevice=hdmi` in `dx816.ini` (this may introduce slight latency)
 - Attach a MIDI keyboard via USB (alternatively you can build a circuit that allows you to attach a "traditional" MIDI keyboard using a DIN connector, or use a DIN-MIDI-to-USB adapter)
-- If you are using a LCDC1602 with an i2c "backpack" board, then you need to set `LCDI2CAddress=0x27` (or another address your i2c "backpack" board is set to) in `minidexed.ini`
+- If you are using a LCDC1602 with an i2c "backpack" board, then you need to set `LCDI2CAddress=0x27` (or another address your i2c "backpack" board is set to) in `dx816.ini`
 - Boot
 - Start playing
 - If the system seems to become unresponsive after a few seconds, remove `usbspeed=full` from `cmdline.txt` and repeat ([details](https://github.com/probonopd/MiniDexed/issues/39))
