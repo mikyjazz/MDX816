@@ -3,8 +3,8 @@
 MDX816 is derived from MiniDexed that is a FM synthesizer closely modeled on the famous DX7 by a well-known Japanese manufacturer running on a bare metal Raspberry Pi (without a Linux kernel or operating system). On Raspberry Pi 2 and larger, it can run 8 tone generators, not unlike the TX816/TX802 (8 DX7 instances without the keyboard in one box). [Featured by HACKADAY](https://hackaday.com/2022/04/19/bare-metal-gives-this-pi-some-classic-synths/), [Adafruit](https://blog.adafruit.com/2022/04/25/free-yamaha-dx7-synth-emulator-on-a-raspberry-pi/), and [Synth Geekery](https://www.youtube.com/watch?v=TDSy5nnm0jA).
 
 IMPORTANT NOTES:
-- A separate repository has been created instead of a fork as many changes have been made (and many more will be made) that match my personal taste of what the application should be; I'm not interested in discussing the appropriateness and validity of Pull Requests... :)
-- I recommend you use the main repository (https://github.com/probonopd/MiniDexed) if you want to follow the main line of development; I cannot guarantee if and what changes in the original project will be reported here.
+- A separate repository has been created instead of a fork as many changes have been made (and many more will be made) that match my personal taste of what the application should be; I'm not interested in discussing the appropriateness and validity of my pull requests... :)
+- I recommend you use the main repository (https://github.com/probonopd/MiniDexed) if you want to follow the main line of development; I cannot guarantee if and what changes in the original main project will be mirrored here.
 - All references to external libraries have been changed to local references to forks on my repository to not depend on "external events".
 - Any information or reference to the original MiniDexed project that you can find here can generally be considered valid if there is no different information available for MDX816.
 
