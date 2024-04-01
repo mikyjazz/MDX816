@@ -37,7 +37,7 @@ gcc-*
 
 # Build artefacts
 kernel*
-MiniDexed*
+MDX816*
 sdcard
 *.zip
 *.img

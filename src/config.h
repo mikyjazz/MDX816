@@ -180,7 +180,7 @@ public:
 	unsigned GetPerformanceSelectChannel (void) const;
 	bool GetSaveSessionPerformance (void) const;
 
-	// minidexedsession.ini
+	// mdx816session.ini
 	unsigned GetSessionPerformance (void) const;
 	void SetSessionPerformance (unsigned nValue);
 
@@ -284,7 +284,7 @@ private:
 	unsigned m_nPerformanceSelectChannel;
 	bool m_bSaveSessionPerformance;
 
-	// minidexedsession.ini
+	// mdx816session.ini
 	unsigned m_nSessionPerformance;
 	unsigned m_nSessionPerformanceBank;
 	unsigned m_nSessionMasterVolume;

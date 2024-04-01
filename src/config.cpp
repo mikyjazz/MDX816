@@ -27,8 +27,8 @@
 #include <algorithm>
 
 CConfig::CConfig (FATFS *pFileSystem)
-:	m_Properties ("dx816.ini", pFileSystem),
-    m_SessionSettings ("dx816session.ini", pFileSystem)
+:	m_Properties ("mdx816.ini", pFileSystem),
+    m_SessionSettings ("mdx816session.ini", pFileSystem)
 {
 }
 
@@ -182,7 +182,7 @@ bool CConfig::Load (void)
 	m_nPerformanceSelectChannel = m_Properties.GetNumber ("PerformanceSelectChannel", 0);
 	m_bSaveSessionPerformance = m_Properties.GetNumber("SaveSessionPerformance", 0) != 0;
 
-	// dx816session.ini
+	// mdx816session.ini
 	m_nSessionPerformance = m_SessionSettings.GetNumber ("Performance", 1);
 	if (m_nSessionPerformance > 0) m_nSessionPerformance--;
 	m_nSessionPerformanceBank = m_SessionSettings.GetNumber ("PerformanceBank", 1);
@@ -574,7 +574,7 @@ bool CConfig::GetSaveSessionPerformance (void) const
 	return m_bSaveSessionPerformance;
 }
 
-// dx816session.ini
+// mdx816session.ini
 
 unsigned CConfig::GetSessionPerformance (void) const
 {

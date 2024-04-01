@@ -44,11 +44,11 @@ Video about this project by [Floyd Steinberg](https://www.youtube.com/watch?v=Z3
 - Unzip
 - Put the files into the root directory of a FAT32 formatted partition on SD/microSD card (Note for small SD cards which are no longer sold: If less than 65525 clusters, you may need to format as FAT16.)
 - Put SD/microSD card into Raspberry Pi 1, 2, 3 or 4, or 400 (Zero and Zero 2 can be used but need HDMI or a supported i2c DAC for audio out)
-- Attach headphones to the headphone jack using `SoundDevice=pwm` in `dx816.ini` (default) (poor audio quality)
-- Alternatively, attach a  PCM5102A or PCM5122 based DAC and select i2c sound output using `SoundDevice=i2s` in `dx816.ini` (best audio quality)
-- Alternatively, attach a HDMI display with sound and select HDMI sound output using `SoundDevice=hdmi` in `dx816.ini` (this may introduce slight latency)
+- Attach headphones to the headphone jack using `SoundDevice=pwm` in `mdx816.ini` (default) (poor audio quality)
+- Alternatively, attach a  PCM5102A or PCM5122 based DAC and select i2c sound output using `SoundDevice=i2s` in `mdx816.ini` (best audio quality)
+- Alternatively, attach a HDMI display with sound and select HDMI sound output using `SoundDevice=hdmi` in `mdx816.ini` (this may introduce slight latency)
 - Attach a MIDI keyboard via USB (alternatively you can build a circuit that allows you to attach a "traditional" MIDI keyboard using a DIN connector, or use a DIN-MIDI-to-USB adapter)
-- If you are using a LCDC1602 with an i2c "backpack" board, then you need to set `LCDI2CAddress=0x27` (or another address your i2c "backpack" board is set to) in `dx816.ini`
+- If you are using a LCDC1602 with an i2c "backpack" board, then you need to set `LCDI2CAddress=0x27` (or another address your i2c "backpack" board is set to) in `mdx816.ini`
 - Boot
 - Start playing
 - If the system seems to become unresponsive after a few seconds, remove `usbspeed=full` from `cmdline.txt` and repeat ([details](https://github.com/probonopd/MiniDexed/issues/39))
@@ -64,7 +64,7 @@ All devices on Raspberry Pi GPIOs are **optional**.
 
 ![Raspberry Pi Pinout/GPIO Diagram](https://user-images.githubusercontent.com/2480569/166105580-da11481c-8fc7-4375-8ab1-3031ab5c6ad0.png)
 
-Please see the [wiki](https://github.com/probonopd/MiniDexed/wiki) for more information.
+Please see the [wiki](https://github.com/mikyjazz/MDX816/wiki) for more information.
 
 ## Downloading
 
@@ -72,7 +72,7 @@ Compiled versions are available on [GitHub Releases](../../releases). Just downl
 
 ## Building
 
-Please see the [wiki](https://github.com/probonopd/MiniDexed/wiki/Development#building-locally) on how to compile the code yourself.
+Please see the [wiki](https://github.com/mikyjazz/MDX816/wiki/Development#building-locally) on how to compile the code yourself.
 
 ## Contributing
 
@@ -80,11 +80,11 @@ This project lives from the contributions of skilled C++ developers, testers, wr
 
 ## Discussions
 
-We are happy to hear from you. Please join the discussions on <https://github.com/probonopd/MiniDexed/discussions>.
+We are happy to hear from you. Please join the discussions on <https://github.com/mikyjazz/MDX816/discussions>.
 
 ## Documentation
 
-Project documentation is at <https://github.com/probonopd/MiniDexed/wiki>.
+Project documentation is at <https://github.com/mikyjazz/MDX816/wiki>.
 
 ## Acknowledgements
 

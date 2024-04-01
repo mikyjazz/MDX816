@@ -49,7 +49,7 @@ cd ../../../..
 
 cd ..
 
-# Build MiniDexed
+# Build MDX816
 cd src
 make clean || true
 make -j

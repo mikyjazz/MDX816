@@ -29,27 +29,8 @@ if [ "${USB_DID}" ] ; then
 	OPTIONS="${OPTIONS} -o USB_GADGET_DEVICE_ID_BASE=${USB_DID}"
 fi
 
-# Build circle-stdlib library
-#cd circle-stdlib/
-#make mrproper || true
-#./configure -r ${RPI} --prefix "${TOOLCHAIN_PREFIX}" ${OPTIONS} -o KERNEL_MAX_SIZE=0x400000
-#make -j
 
-# Build additional libraries
-#cd libs/circle/addon/display/
-#make clean || true
-#make -j
-#cd ../sensor/
-#make clean || true
-#make -j
-#cd ../Properties/
-#make clean || true
-#make -j
-#cd ../../../..
-
-#cd ..
-
-# Build MiniDexed
+# Build MDX816
 cd src
 make clean || true
 make -j
