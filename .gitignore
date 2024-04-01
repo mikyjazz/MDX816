@@ -37,7 +37,6 @@ gcc-*
 
 # Build artefacts
 kernel*
-MDX816*
 sdcard
 *.zip
 *.img
