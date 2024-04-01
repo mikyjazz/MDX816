@@ -34,7 +34,7 @@ LOGMODULE ("uimenu");
 
 const CUIMenu::TMenuItem CUIMenu::s_MenuRoot[] =
 {
-	{"MiniDX816", MainMenuHandler, s_MainMenu},
+	{"MDX816", MainMenuHandler, s_MainMenu},
 	{0}
 };
 
