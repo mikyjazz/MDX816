@@ -1,6 +1,6 @@
 # MDX816 ![Github Build Status](https://github.com/mikyjazz/MDX816/actions/workflows/build.yml/badge.svg)
 
-![MDX816](https://user-images.githubusercontent.com/2480569/161813414-bb156a1c-efec-44c0-802a-8926412a08e0.jpg)
+![MDX816](https://github.com/mikyjazz/MDX816/assets/38558161/0ff04726-2644-4256-ab79-6f2ff34ff0a4)
 
 MDX816 is derived from MiniDexed that is a FM synthesizer closely modeled on the famous DX7 by a well-known Japanese manufacturer running on a bare metal Raspberry Pi (without a Linux kernel or operating system). On Raspberry Pi 2 and larger, it can run 8 tone generators, not unlike the TX816/TX802 (8 DX7 instances without the keyboard in one box). [Featured by HACKADAY](https://hackaday.com/2022/04/19/bare-metal-gives-this-pi-some-classic-synths/), [Adafruit](https://blog.adafruit.com/2022/04/25/free-yamaha-dx7-synth-emulator-on-a-raspberry-pi/), and [Synth Geekery](https://www.youtube.com/watch?v=TDSy5nnm0jA).
 
@@ -67,7 +67,7 @@ Video about this project by [Floyd Steinberg](https://www.youtube.com/watch?v=Z3
 
 All devices on Raspberry Pi GPIOs are **optional**.
 
-![Raspberry Pi Pinout/GPIO Diagram](https://user-images.githubusercontent.com/2480569/166105580-da11481c-8fc7-4375-8ab1-3031ab5c6ad0.png)
+![Raspberry Pi Pinout/GPIO Diagram](https://github.com/mikyjazz/MDX816/assets/38558161/ec790a10-b0de-4a9a-9255-1f27626160f8)
 
 Please see the [wiki](https://github.com/mikyjazz/MDX816/wiki) for more information.
 
