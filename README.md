@@ -81,7 +81,7 @@ Please see the [wiki](https://github.com/mikyjazz/MDX816/wiki/Development#buildi
 
 ## Contributing
 
-This project lives from the contributions of skilled C++ developers, testers, writers, etc. Please see <https://github.com/probonopd/MiniDexed/issues>.
+This project lives from the contributions of skilled C++ developers, testers, writers, etc. Please see <https://github.com/mikyjazz/MDX816/issues>.
 
 ## Discussions
 
@@ -103,4 +103,4 @@ This project stands on the shoulders of giants. Special thanks to:
 - [smuehlst](https://github.com/smuehlst) for [circle-stdlib](https://github.com/smuehlst/circle-stdlib), a version with Standard C and C++ library support
 - [Banana71](https://github.com/Banana71) for the sound design of the [Soundplantage](https://github.com/Banana71/Soundplantage) performances shipped with MiniDexed
 - [BobanSpasic](https://github.com/BobanSpasic) for the [MiniDexedLibrarian](https://github.com/BobanSpasic/MiniDexedLibrarian) software, [MiniDexed performance converter](https://github.com/BobanSpasic/MDX_PerfConv) and [collection of performances for MiniDexed](https://github.com/BobanSpasic/MDX_Vault)
-- [diyelectromusic](https://github.com/diyelectromusic/) for many [contributions](https://github.com/probonopd/MiniDexed/commits?author=diyelectromusic)
+- [diyelectromusic](https://github.com/diyelectromusic/) for many [contributions](https://github.com/mikyjazz/MDX816/commits?author=diyelectromusic)
