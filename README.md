@@ -67,7 +67,7 @@ Video about this project by [Floyd Steinberg](https://www.youtube.com/watch?v=Z3
 
 All devices on Raspberry Pi GPIOs are **optional**.
 
-![Raspberry Pi Pinout/GPIO Diagram](https://github.com/mikyjazz/MDX816/assets/38558161/ec790a10-b0de-4a9a-9255-1f27626160f8)
+![Raspberry Pi Pinout/GPIO Diagram](https://github.com/mikyjazz/MDX816/issues/2#issue-2221414728)
 
 Please see the [wiki](https://github.com/mikyjazz/MDX816/wiki) for more information.
 
