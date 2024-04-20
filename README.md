@@ -67,7 +67,7 @@ Video about this project by [Floyd Steinberg](https://www.youtube.com/watch?v=Z3
 
 All devices on Raspberry Pi GPIOs are **optional**.
 
-![Raspberry Pi Pinout/GPIO Diagram](https://private-user-images.githubusercontent.com/38558161/318956800-ec790a10-b0de-4a9a-9255-1f27626160f8.png)
+![Raspberry Pi Pinout/GPIO Diagram](https://private-user-images.githubusercontent.com/38558161/318956800-ec790a10-b0de-4a9a-9255-1f27626160f8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTM2NDMwNzEsIm5iZiI6MTcxMzY0Mjc3MSwicGF0aCI6Ii8zODU1ODE2MS8zMTg5NTY4MDAtZWM3OTBhMTAtYjBkZS00YTlhLTkyNTUtMWYyNzYyNjE2MGY4LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDIwVDE5NTI1MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFlODMwMzcwMDdiYzIyYTQ3OTIzMjNhYWY4MGRlZjAyYzY1YWEyYTJmZDRiNWM2OTU2MDdmNGEwMDVjMTM4NjUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.9BMmJONlRvkxAe3zL-7hA2mOKkKzJYVwREp0AeRzry8)
 
 Please see the [wiki](https://github.com/mikyjazz/MDX816/wiki) for more information.
 
